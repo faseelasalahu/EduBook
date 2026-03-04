@@ -1,16 +1,41 @@
-# React + Vite
+# 🎓 Edu-Book: Teacher-Student Appointment System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-stack appointment booking application built with **React (Vite)** and **Firebase**. This platform bridges the gap between students and teachers by allowing seamless real-time scheduling and management.
 
-Currently, two official plugins are available:
+🚀 **Live Demo:** [https://teacher-booking-app-8a4ef.web.app](https://teacher-booking-app-8a4ef.web.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔐 Role-Based Authentication
+- **Admin:** Manage faculty (Add/Delete) and approve student registrations.
+- **Teacher:** View and manage (Approve/Cancel) specific appointment requests.
+- **Student:** Discover teachers, book sessions, and track booking status live.
 
-## Expanding the ESLint configuration
+### ⚡ Real-time Updates
+- Powered by **Firebase Firestore**, data updates instantly across all dashboards without page refreshes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🎨 Modern UI/UX
+- Responsive design using **Tailwind CSS**.
+- Immersive **3D Starry Background** on the Home page using **React Three Fiber**.
+- Smooth notifications via **React Hot Toast**.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (Vite), Tailwind CSS, Lucide-React.
+- **3D Graphics:** Three.js, @react-three/fiber, @react-three/drei.
+- **Backend-as-a-Service:** Firebase (Auth, Firestore, Hosting).
+- **Routing:** React Router v6.
+- **Deployment:** Firebase Hosting with GitHub Actions (CI/CD).
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com
+cd EduBook
